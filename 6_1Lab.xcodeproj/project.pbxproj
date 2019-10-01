@@ -12,6 +12,7 @@
 		60EDE59C234395E2004D9C41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60EDE59A234395E2004D9C41 /* Main.storyboard */; };
 		60EDE59E234395F4004D9C41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60EDE59D234395F4004D9C41 /* Assets.xcassets */; };
 		60EDE5A1234395F4004D9C41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60EDE59F234395F4004D9C41 /* LaunchScreen.storyboard */; };
+		60EDE5AB2343A5FA004D9C41 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EDE5AA2343A5FA004D9C41 /* JSONParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		60EDE59D234395F4004D9C41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60EDE5A0234395F4004D9C41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60EDE5A2234395F4004D9C41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60EDE5AA2343A5FA004D9C41 /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				60EDE596234395E2004D9C41 /* AppDelegate.swift */,
 				60EDE598234395E2004D9C41 /* ViewController.swift */,
 				60EDE59A234395E2004D9C41 /* Main.storyboard */,
+				60EDE5AA2343A5FA004D9C41 /* JSONParser.swift */,
 				60EDE59D234395F4004D9C41 /* Assets.xcassets */,
 				60EDE59F234395F4004D9C41 /* LaunchScreen.storyboard */,
 				60EDE5A2234395F4004D9C41 /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				60EDE599234395E2004D9C41 /* ViewController.swift in Sources */,
 				60EDE597234395E2004D9C41 /* AppDelegate.swift in Sources */,
+				60EDE5AB2343A5FA004D9C41 /* JSONParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
