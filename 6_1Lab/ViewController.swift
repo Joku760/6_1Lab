@@ -25,6 +25,16 @@ class ViewController: UIViewController {
         let urler = "https://api.openweathermap.org/data/2.5/weather?q=" + kapunki + "&APPID=65dbec3aae5e5bf9000c7a956c8b76f6"
         
         JSONParseri.getDatTempPls(urlest: urler)
+        
+        let x:String = String(format:"%f", JSONParseri.temperature)
+        
+        tempLabel.text = x
+        weatherLabel.text = String(JSONParseri.currentWeather)
+        
+        let url = URL(string: "https://openweathermap.org/img/w/" + String(JSONParseri.iconID) + ".png")
+        let data = try? Data(contentsOf: url!)
+        imageView.image = UIImage(data: data!)
+        
     }
     
     override func viewDidLoad() {
